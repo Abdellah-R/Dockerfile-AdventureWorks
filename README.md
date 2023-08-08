@@ -60,3 +60,12 @@ Si vous obtenez un message d'erreur, cliquez sur Enable
 - Vous pouvez également visualiser le diagramme EER :
   ![](screenshots/diagramme)
 
+## 🔗 Ressources
+
+- [**Fichiers de Sauvegarde AdventureWorks**](https://learn.microsoft.com/fr-fr/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+  
+- [**Exercices SQL avec AdventureWorks**](https://www.w3resource.com/sql-exercises/adventureworks/adventureworks-exercises.php#SQLEDITOR)
+
+- [**Installation de Docker**](https://docs.docker.com/engine/install/ubuntu/)
+
+- [**Installation d'Azure Data Studio**](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&tabs=redhat-install%2Credhat-uninstall)
