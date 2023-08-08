@@ -57,7 +57,7 @@ Ce guide vous montrera comment utiliser le Dockerfile fourni pour créer un cont
 Si vous obtenez un message d'erreur, cliquez sur Enable 
 
 - Vous devriez voir l'écran d'accueil du serveur qui indique qu'il fonctionne sous Linux et que le nom d'hôte est correctement défini.
-   [](screenshots/home)
+  ![](screenshots/home)
 
 - Enfin, vous pouvez faire des requêtes en ouvrant un éditeur SQL : 
   ![](screenshots/query)
