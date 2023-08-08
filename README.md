@@ -27,7 +27,7 @@ Ce guide vous montrera comment utiliser le Dockerfile fourni pour créer un cont
 
 - Ouvrez votre terminal à la racine du dossier où se trouve le dockerfile et les fichiers .bak pour construire l'image avec cette commande :
 ```bash
-  docker build adventureworks2019_full .
+  docker build -t adventureworks2019_full .
 ```
 
 - Puis démarrer le conteneur (bien sûr, en pratique on n'affiche pas le mot de passe en dur dans le terminal mais ici c'est juste un exercice) :
@@ -35,7 +35,7 @@ Ce guide vous montrera comment utiliser le Dockerfile fourni pour créer un cont
   docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrongPassword123" -p 1433:1433 -d adventureworks2019_full
 ```
 
-- Vérifier que le conteneur en utilisant l'extension Docker dans VScode ou bien directement avec la commande 
+- Vérifier que le conteneur s'est bien exécuter en utilisant l'extension Docker dans VScode ou bien directement avec la commande 
 ```bash
   docker ps
 ```
