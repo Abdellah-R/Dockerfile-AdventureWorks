@@ -13,7 +13,8 @@ Ce guide vous montrera comment utiliser le Dockerfile fourni pour créer un cont
 
 
 ## Utilisation en local
-Etape 1 - Configuration :
+
+### Etape 1 - Configuration :
 
 - Récupérez le fichier Dockerfile et placez-le dans un dossier sur votre machine.
 
@@ -35,7 +36,7 @@ Etape 1 - Configuration :
 ```
 
 
-Etape 2 - Connection à Azure Data Studio: 
+### Etape 2 - Connection à Azure Data Studio: 
 
 - Ouvrez Azure Data Studio puis cliquez sur Nouvelle Connection 
 
@@ -47,7 +48,8 @@ Etape 2 - Connection à Azure Data Studio:
     Password (Mot de passe) : ThisIsAReallyCoolPassword123
   ```
   ![](screenshots/login)
-  Si vous obtenez un message d'erreur, cliquez sur Enable 
+  
+Si vous obtenez un message d'erreur, cliquez sur Enable 
 
 - Vous devriez voir l'écran d'accueil du serveur qui indique qu'il fonctionne sous Linux et que le nom d'hôte est correctement défini.
    [](screenshots/home)
