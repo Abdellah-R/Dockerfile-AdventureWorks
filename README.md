@@ -46,15 +46,15 @@ Etape 2 - Connection à Azure Data Studio:
     Username (Nom d'utilisateur) : sa \
     Password (Mot de passe) : ThisIsAReallyCoolPassword123
   ```
-  ![](screenshots/login.png)
+  ![](screenshots/login)
   Si vous obtenez un message d'erreur, cliquez sur Enable 
 
 - Vous devriez voir l'écran d'accueil du serveur qui indique qu'il fonctionne sous Linux et que le nom d'hôte est correctement défini.
-   [](screenshots/home.png)
+   [](screenshots/home)
 
 - Enfin, vous pouvez faire des requêtes en ouvrant un éditeur SQL : 
-  ![](screenshots/query.png)
+  ![](screenshots/query)
 
 - Vous pouvez également visualiser le diagramme EER :
-  ![](screenshots/diagramme.png)
+  ![](screenshots/diagramme)
 
