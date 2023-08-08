@@ -12,6 +12,11 @@ Ce guide vous montrera comment utiliser le Dockerfile fourni pour créer un cont
 - Installez Azure Data Studio (ou un autre logiciel tel que Dbeaver).
 
 
+## Badges
+
+![Dockerfile](https://img.shields.io/badge/Dockerfile-Exists-brightgreen)
+
+
 ## Utilisation en local
 
 ### Etape 1 - Configuration :
