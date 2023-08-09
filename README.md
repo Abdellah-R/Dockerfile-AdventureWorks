@@ -65,11 +65,13 @@ Si vous obtenez un message d'erreur, cliquez sur Enable
 - Vous pouvez également visualiser le diagramme EER :
   ![](screenshots/diagramme)
 
-## 🔗 Ressources
+## Ressources
 
 - [**Fichiers de Sauvegarde AdventureWorks**](https://learn.microsoft.com/fr-fr/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
   
 - [**Exercices SQL avec AdventureWorks**](https://www.w3resource.com/sql-exercises/adventureworks/adventureworks-exercises.php#SQLEDITOR)
+
+- [**Documentation sur SQL**](https://sqlbolt.com/lesson/introduction)
 
 - [**Installation de Docker**](https://docs.docker.com/engine/install/ubuntu/)
 
