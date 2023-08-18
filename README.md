@@ -30,9 +30,9 @@ Ce guide vous montrera comment utiliser le Dockerfile fourni pour créer un cont
   docker build -t adventureworks2019_full .
 ```
 
-- Puis démarrer le conteneur (bien sûr, en pratique on n'affiche pas le mot de passe en dur dans le terminal mais ici c'est juste un exercice) :
+- Puis démarrer le conteneur en vérifiant que le port 1435 est libre (bien sûr, en pratique on n'affiche pas le mot de passe en dur dans le terminal mais ici c'est juste un exercice) :
 ```bash
-  docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrongPassword123" -p 1433:1433 -d adventureworks2019_full
+  docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrongPassword123" -p 1435:1433 -d adventureworks2019_full
 ```
 
 - Vérifier que le conteneur s'est bien exécuter en utilisant l'extension Docker dans VScode ou bien directement avec la commande 
@@ -47,7 +47,7 @@ Ce guide vous montrera comment utiliser le Dockerfile fourni pour créer un cont
 
 - Entrez les informations de connexion comme suit :
   ```bash
-    Server Name (Nom du serveur) : localhost \
+    Server Name (Nom du serveur) : localhost,1435 \
     Authentication Type (Type d'authentification) : SQL Login \
     Username (Nom d'utilisateur) : sa \
     Password (Mot de passe) : ThisIsAReallyCoolPassword123
